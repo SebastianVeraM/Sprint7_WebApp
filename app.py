@@ -4,8 +4,7 @@ import plotly.express as px
 
 
 # Create app
-df = pd.read_csv(
-    '/Users/guita/Documents/TripleTen/Sprint7_WebApp/vehicles_us.csv')
+df = pd.read_csv('vehicles_us.csv')
 
 st.header("Proyecto Sprint 7 - Aplicación Web")
 
